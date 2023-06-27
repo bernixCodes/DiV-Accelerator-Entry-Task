@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DIV - Login Page</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <!-- form session -->
+      <div class="formContainer">
+        <div class="modes">
+          <!-- icons -->
+          <span class="material-icons-sharp activeMode" id="light-mode-btn">
+            light_mode
+          </span>
+          <span class="material-icons-sharp" id="dark-mode-btn">
+            dark_mode
+          </span>
+        </div>
+
+        <div>
+          <!-- div logo -->
+          <img src="./assets/logo.png" alt="'logo" class="logo" />
+        </div>
+
+        <!-- form -->
+        <form id="form">
+          <div class="inputContainer">
+            <label for="name">username</label>
+            <div class="formInput">
+              <input type="text" id="name" placeholder="username" />
+              <!-- icon -->
+              <span class="material-icons-sharp ficon"> person </span>
+            </div>
+          </div>
+
+          <div>
+            <label for="password">password</label>
+            <div class="formInput">
+              <input type="password" id="password" placeholder="password" />
+              <!-- icon -->
+              <span class="material-icons-sharp ficon"> lock </span>
+            </div>
+          </div>
+
+          <div class="btnContainer">
+            <!-- buttons -->
+            <button class="btnLight">Login</button>
+            <button class="btnDark">sign up</button>
+          </div>
+        </form>
+      </div>
+
+      <!--Image session-->
+      <div>
+        <!-- image -->
+        <img src="./assets/bg.jpg" alt="background" class="bgImage" />
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
