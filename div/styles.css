@@ -90,6 +90,10 @@ form {
   border-radius: 20px;
 }
 
+form:focus, form:active{
+  background-color: transparent;
+}
+
 .formInput {
   background-color: var(--formInput);
   padding: 10px;
@@ -108,6 +112,7 @@ input[type="password"] {
   outline: none;
   border: none;
   width: 90%;
+
 }
 
 .inputContainer {
